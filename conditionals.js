@@ -1,4 +1,4 @@
-
+/*
 
 const isCitizen = true;
 const age = 26;
@@ -15,4 +15,17 @@ if (temperature < -40 || temperature > 40) {
 
 if (!raining) {
   console.log("Leave your umbrella at home!");
-}
+} */
+let age = 12;
+
+
+  function whichSchool(age) {
+    if (age <= 12){
+      console.log("Elementary School")
+    } else if (age >=13 && age <= 18){
+      console.log("Secondary School")
+    } else {
+      console.log("Lighthouse Labs")
+    }
+  }
+
