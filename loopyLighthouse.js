@@ -4,8 +4,6 @@ for (let num = 100; num <= 200; num++) {
   else if (num % 3 === 0) console.log("Loopy");
   else if (num % 4 === 0) console.log("Lighthouse");
   else console.log(num);
-
-  
 }
 
 /* var x = 1;

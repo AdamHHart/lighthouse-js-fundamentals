@@ -3,4 +3,4 @@ function ageCalculator(name, yearOfBirth, currentYear) {
   console.log(name + " is " + age + " years old.");
 
 }
-console.log(ageCalculator("Adam", 1994, 2021));
+return ageCalculator("Adam", 1994, 2021);
